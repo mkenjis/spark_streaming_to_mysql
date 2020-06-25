@@ -1,0 +1,9 @@
+create database mydata;
+
+create user 'mydata'@'%' IDENTIFIED BY 'admsys123';
+
+GRANT ALL PRIVILEGES ON mydata.* TO 'mydata'@'%';
+
+use mydata;
+
+create table df_aux ( cp1 varchar(30), cp2 varchar(255));
