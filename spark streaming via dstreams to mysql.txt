@@ -41,7 +41,6 @@ result.foreachRDD ( rdd => {
          stmt.addBatch("insert into df_aux values('"+record._1+"','"+record._2+"')")
       })
       stmt.executeBatch()
-      // conn.commit()
    })
 })
 
