@@ -7,6 +7,7 @@ Purpose:
 
 Requirements:
 - Spark installed
+- Kafka library installled
 - Mysql installed
 - Table df_aux created
 
